@@ -99,7 +99,7 @@ cd ~ && composer create-project zhuchunshu/super-forum
 
 出现上图提示输入yes之后回车即可
 
-![出现此提示输入y然后回车](<../.gitbook/assets/image (10).png>)
+![出现此提示输入y然后回车](<../.gitbook/assets/image (10) (1).png>)
 
 出现以上提示，输入y然后回车即可
 
@@ -190,6 +190,14 @@ echo "swoole.use_shortname='Off'" >> /www/server/php/80/etc/php.ini
 sed -i 's/disable_functions =.*/disable_functions =/g' /www/server/php/80/etc/php-cli.ini
 echo "swoole.use_shortname='Off'" >> /www/server/php/80/etc/php-cli.ini
 ```
+
+**设置命令行 PHP 版本**
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+#### 确保所有PHP禁用函数已被解除
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### 创建数据库
 
